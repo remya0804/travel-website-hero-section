@@ -2,18 +2,18 @@
 
     position: absolute;
 
-    margin: auto;
+    margin: 0;
 
     padding: 10px 10%;
 
-    width: 100%;
-
+    width: 80%;
 
     top:0;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 /* Navbar Logo */
@@ -42,7 +42,7 @@
 
 /* Navbar Menu */
 
-.navbar-menu{
+.menulist{
 
     display: flex;
     align-items: center;
@@ -54,16 +54,18 @@
     color: white;
 
     font-size: 20px;
+
+    margin: 0;
 }
 
-.navbar-menu li{
+.menulist li{
 
     cursor: pointer;
 
     transition: 0.5s;
 }
 
-.navbar-menu li:hover{
+.menulist li:hover{
 
     transform: scale(1.1);
 }
@@ -99,7 +101,7 @@
 
 .menu-hide{
 
-    display: none;
+    visibility: hidden;
 }
 
 
@@ -109,7 +111,7 @@
     position: absolute;
 
     right: 10%;
-    top:50px;
+    top:70px;
 
     padding: 0;
 
@@ -150,7 +152,7 @@
 
 @media screen and (max-width: 760px){
 
-    .navbar-menu{
+    .menulist{
 
         display: none;
     }

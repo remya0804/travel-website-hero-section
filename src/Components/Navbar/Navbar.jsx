@@ -26,14 +26,17 @@ const Navbar = () => {
 
       <ul className='navbar-menu'>
 
-        <li>Home</li>
-        <li>About</li>
-        <li>Explore</li>
-        <li className='contact'>Contact</li>
+        <div className="menulist">
 
-      </ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Explore</li>
+          <li className='contact'>Contact</li>
 
-      {/*   ********* Navbar Side Menu ************** */}
+        </div>
+
+        
+        {/*   ********* Navbar Side Menu ************** */}
 
       <div className="navbar-sidemenu">
 
@@ -53,6 +56,10 @@ const Navbar = () => {
         </ul>
 
       </div>
+
+      </ul>
+
+      
 
       
     </div>
